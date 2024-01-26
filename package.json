@@ -1,0 +1,28 @@
+{
+  "name": "peti",
+  "version": "1.0.0",
+  "description": "petiProject",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kiminsu1996/change_peti_project.git"
+  },
+  "keywords": [
+    "peti"
+  ],
+  "author": "Kim Insu <loud.danger@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kiminsu1996/change_peti_project/issues"
+  },
+  "homepage": "https://github.com/Kiminsu1996/change_peti_project#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
