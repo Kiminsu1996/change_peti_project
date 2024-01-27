@@ -20,7 +20,9 @@
     },
     "homepage": "https://github.com/Kiminsu1996/peti-project-backend#readme",
     "dependencies": {
-        "express": "^4.18.2"
+        "dotenv": "^16.4.1",
+        "express": "^4.18.2",
+        "pg": "^8.11.3"
     },
     "devDependencies": {
         "nodemon": "^3.0.3"

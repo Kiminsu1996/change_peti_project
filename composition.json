@@ -1,0 +1,51 @@
+[
+    {
+        "idx": 1,
+        "element_idx": 1,
+        "name_en": "Home protector",
+        "name_kr": "집순이"
+    },
+    {
+        "idx": 2,
+        "element_idx": 1,
+        "name_en": "Active",
+        "name_kr": "밖순이"
+    },
+    {
+        "idx": 3,
+        "element_idx": 2,
+        "name_en": "Small eater",
+        "name_kr": "소식가"
+    },
+    {
+        "idx": 4,
+        "element_idx": 2,
+        "name_en": "Big eater",
+        "name_kr": "대식가"
+    },
+
+    {
+        "idx": 5,
+        "element_idx": 3,
+        "name_en": "Introversion",
+        "name_kr": "아싸"
+    },
+    {
+        "idx": 6,
+        "element_idx": 3,
+        "name_en": "Extroversion",
+        "name_kr": "인싸"
+    },
+    {
+        "idx": 7,
+        "element_idx": 4,
+        "name_en": "Cold",
+        "name_kr": "시크도도"
+    },
+    {
+        "idx": 8,
+        "element_idx": 4,
+        "name_en": "Lovely",
+        "name_kr": "애교쟁이"
+    }
+]
