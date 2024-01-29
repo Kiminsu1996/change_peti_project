@@ -17,9 +17,6 @@ app.use('/composition', compositionRouter);
 const elementRouter = require('./src/seeding/element');
 app.use('/element', elementRouter);
 
-// const peti_mapping_tableRouter = require('./src/seeding/peti_mapping_table');
-// app.use('/peti-mapping-table', peti_mapping_tableRouter);
-
 const petiRouter = require('./src/seeding/peti');
 app.use('/peti', petiRouter);
 
