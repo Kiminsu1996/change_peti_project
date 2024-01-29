@@ -8,8 +8,8 @@ const server = http.createServer(app);
 app.use(express.json());
 
 //seeding
-// const animalRouter = require('./src/seeding/animal');
-// app.use('/animal', animalRouter);
+const animalRouter = require('./src/seeding/animal');
+app.use('/animal', animalRouter);
 
 const compositionRouter = require('./src/seeding/composition');
 app.use('/composition', compositionRouter);
@@ -20,8 +20,8 @@ app.use('/element', elementRouter);
 // const peti_mapping_tableRouter = require('./src/seeding/peti_mapping_table');
 // app.use('/peti-mapping-table', peti_mapping_tableRouter);
 
-// const petiRouter = require('./src/seeding/peti');
-// app.use('/peti', petiRouter);
+const petiRouter = require('./src/seeding/peti');
+app.use('/peti', petiRouter);
 
 // const questionRouter = require('./src/seeding/question');
 // app.use('/question', questionRouter);
