@@ -1,31 +1,27 @@
-class HttpException {
-    status;
-    message;
-    err;
-
-    constructor(status, message, err = null) {
+class APIError extends Error {
+    constructor(status, message) {
+        super(message);
         this.status = status;
         this.message = message;
-        this.err = err;
     }
 }
 
-class BadRequestException extends HttpException {
-    constructor(message) {
-        super(400, message, null);
+class NotFoundError extends APIError {
+    constructor(message = 'Not Found Error') {
+        super(404, message);
     }
 }
 
-class NotFoundException extends HttpException {
-    constructor(message) {
-        super(404, message, null);
+class BadRequestError extends APIError {
+    constructor(message = 'Bad Request') {
+        super(400, message);
     }
 }
 
-class InternalServerError extends HttpException {
-    constructor(message) {
-        super(500, message, null);
+class InternalServerError extends APIError {
+    constructor(message = 'Interanl Server Error') {
+        super(500, message);
     }
 }
 
-module.exports = { HttpException, BadRequestException, NotFoundException, InternalServerError };
+module.exports = { NotFoundError, BadRequestError, InternalServerError };
