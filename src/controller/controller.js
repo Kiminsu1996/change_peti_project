@@ -1,4 +1,4 @@
-const { InternalServerError } = require('../exception/exception');
+const { InternalServerError } = require('../src/exception/exception');
 
 const controller = (requestHandler) => {
     return async (req, res, next) => {

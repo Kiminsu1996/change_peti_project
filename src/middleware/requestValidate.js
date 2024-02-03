@@ -1,4 +1,4 @@
-const { BadRequestError } = require('../../exception/exception');
+const { BadRequestError } = require('../exception/exception');
 const { length, regex } = require('../module/validate');
 
 const validators = {

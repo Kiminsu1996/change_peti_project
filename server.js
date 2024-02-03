@@ -30,6 +30,7 @@ app.use('/question', questionRouter);
 const weightRouter = require('./src/seeding/weight');
 app.use('/weight', weightRouter);
 
+// 여기에 로깅작업 넣기
 //에러처리
 app.use((err, req, res, next) => {
     console.log(err.stack);
